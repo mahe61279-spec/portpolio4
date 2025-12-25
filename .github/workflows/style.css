@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    COLOR:yellow;
+}
+
+.logo {
+    color: #ffcc00;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Home Section */
+    .home {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1628294895950-9805252327bc");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: white;
+}
